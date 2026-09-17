@@ -1,0 +1,33 @@
+{
+    "greeting": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening"
+    ],
+    "register": [
+        "register",
+        "apply",
+        "join",
+        "sign up",
+        "enroll",
+        "internship registration"
+    ],
+    "help": [
+        "help",
+        "guide",
+        "support",
+        "how to",
+        "info",
+        "what can you do"
+    ],
+    "bye": [
+        "bye",
+        "exit",
+        "quit",
+        "goodbye",
+        "see you"
+    ]
+}
