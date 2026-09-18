@@ -1,33 +1,172 @@
 {
-    "greeting": [
-        "hi",
-        "hello",
-        "hey",
-        "good morning",
-        "good afternoon",
-        "good evening"
-    ],
-    "register": [
-        "register",
-        "apply",
-        "join",
-        "sign up",
-        "enroll",
-        "internship registration"
-    ],
-    "help": [
-        "help",
-        "guide",
-        "support",
-        "how to",
-        "info",
-        "what can you do"
-    ],
-    "bye": [
-        "bye",
-        "exit",
-        "quit",
-        "goodbye",
-        "see you"
-    ]
+    "greeting": {
+        "patterns": [
+            "hi",
+            "hello",
+            "hey",
+            "good morning",
+            "good afternoon",
+            "good evening",
+            "namaste",
+            "hola",
+            "bonjour",
+            "hey there",
+            "start",
+            "greetings"
+        ],
+        "responses": [
+            "Hello! Welcome to the AI & Data Science Internship Registration Assistant. How can I help you today?",
+            "Hi there! I am your AI Registration Assistant. Would you like to register for the internship or ask questions?"
+        ]
+    },
+    "register": {
+        "patterns": [
+            "register",
+            "apply",
+            "join",
+            "sign up",
+            "enroll",
+            "internship registration",
+            "i want to register",
+            "start registration",
+            "apply now",
+            "register for internship"
+        ],
+        "responses": [
+            "Awesome! Let's get you registered for the AI & Data Science Internship. First, what is your full name?"
+        ]
+    },
+    "help": {
+        "patterns": [
+            "help",
+            "guide",
+            "support",
+            "how to register",
+            "what can you do",
+            "commands",
+            "options"
+        ],
+        "responses": [
+            "I can guide you through the complete internship registration process! You can type:\n• 'register' to start applying\n• Ask FAQs like 'duration', 'certificate', 'stipend', or 'skills'\n• 'status' to check existing registrations\n• 'exit' to quit anytime."
+        ]
+    },
+    "faq_duration": {
+        "patterns": [
+            "how long is the internship",
+            "what is the duration",
+            "duration",
+            "timeline",
+            "how many weeks",
+            "period of internship"
+        ],
+        "responses": [
+            "The AI & Data Science Internship follows a flexible 1-week to 4-week self-paced milestone structure with hands-on tasks and real-world project submissions."
+        ]
+    },
+    "faq_eligibility": {
+        "patterns": [
+            "who can apply",
+            "am i eligible",
+            "eligibility criteria",
+            "requirements to apply",
+            "can beginners apply",
+            "who is this for"
+        ],
+        "responses": [
+            "Students, fresh graduates, and tech enthusiasts from Computer Science, IT, Data Science, and related engineering fields are eligible. Beginners with basic Python interest are welcome!"
+        ]
+    },
+    "faq_certificate": {
+        "patterns": [
+            "will i get a certificate",
+            "is certificate provided",
+            "certificate",
+            "verified certificate",
+            "internship completion letter"
+        ],
+        "responses": [
+            "Yes! Upon successful completion and evaluation of all assigned project milestones, you will receive a verified Internship Completion Certificate and performance recommendation."
+        ]
+    },
+    "faq_stipend": {
+        "patterns": [
+            "is it paid",
+            "is there a stipend",
+            "stipend",
+            "how much do you pay",
+            "is registration free",
+            "fee",
+            "cost"
+        ],
+        "responses": [
+            "This is a 100% Free Virtual Learning Internship designed to build production-grade AI & Data Science portfolio projects with zero registration fees."
+        ]
+    },
+    "faq_skills": {
+        "patterns": [
+            "what skills are required",
+            "prerequisites",
+            "do i need python",
+            "technologies used",
+            "tools taught"
+        ],
+        "responses": [
+            "Key skills covered include Python, Natural Language Processing (NLTK, spaCy), Machine Learning (Scikit-Learn), Conversational AI frameworks, and API deployment."
+        ]
+    },
+    "status": {
+        "patterns": [
+            "check my status",
+            "application status",
+            "am i registered",
+            "check registration"
+        ],
+        "responses": [
+            "You can check your registered status by providing your email address, or ask the admin dashboard to review your active submission."
+        ]
+    },
+    "sentiment_positive": {
+        "patterns": [
+            "thank you",
+            "thanks",
+            "appreciate it",
+            "awesome",
+            "great job",
+            "you are very helpful",
+            "cool",
+            "perfect"
+        ],
+        "responses": [
+            "You are very welcome! I'm glad I could help. Let me know if you need anything else for your internship journey.",
+            "Happy to assist you! Feel free to ask more questions or begin your registration whenever you're ready."
+        ]
+    },
+    "sentiment_negative": {
+        "patterns": [
+            "this is bad",
+            "i am confused",
+            "not helpful",
+            "terrible",
+            "i don't understand",
+            "frustrated",
+            "horrible"
+        ],
+        "responses": [
+            "I apologize for any confusion! Let's make this simple. You can simply type 'register' to apply, or type 'help' for step-by-step guidance."
+        ]
+    },
+    "bye": {
+        "patterns": [
+            "bye",
+            "exit",
+            "quit",
+            "goodbye",
+            "see you",
+            "close",
+            "terminate"
+        ],
+        "responses": [
+            "Thank you for visiting the AI Registration Assistant. Best of luck with your internship journey! Goodbye!"
+        ]
+    }
 }

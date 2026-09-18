@@ -1,0 +1,38 @@
+[
+  {
+    "session_id": "default",
+    "timestamp": "2026-09-19 01:37:20",
+    "user_input": "hello",
+    "bot_response": "Hi there! I am your AI Registration Assistant. Would you like to register for the internship or ask questions?\n\nType 'register' to apply, or ask any questions about the internship.",
+    "intent": "greeting",
+    "confidence": 1.0,
+    "sentiment": "neutral"
+  },
+  {
+    "session_id": "default",
+    "timestamp": "2026-09-19 01:37:20",
+    "user_input": "register",
+    "bot_response": "Awesome! I'll guide you step-by-step through the internship registration. First, what is your full name?",
+    "intent": "register",
+    "confidence": 1.0,
+    "sentiment": "neutral"
+  },
+  {
+    "session_id": "test_web",
+    "timestamp": "2026-09-19 01:38:46",
+    "user_input": "hello",
+    "bot_response": "Hi there! I am your AI Registration Assistant. Would you like to register for the internship or ask questions?\n\nType 'register' to apply, or ask any questions about the internship.",
+    "intent": "greeting",
+    "confidence": 1.0,
+    "sentiment": "neutral"
+  },
+  {
+    "session_id": "test_web",
+    "timestamp": "2026-09-19 01:40:18",
+    "user_input": "hello",
+    "bot_response": "Hi there! I am your AI Registration Assistant. Would you like to register for the internship or ask questions?\n\nType 'register' to apply, or ask any questions about the internship.",
+    "intent": "greeting",
+    "confidence": 1.0,
+    "sentiment": "neutral"
+  }
+]
